@@ -9,9 +9,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-/**
- * Created by Sun Ye on 2016/3/31.
- */
+
 public class ParseCreditUnitDataImplTest {
 
     @Test

@@ -7,8 +7,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CountRomanSymbolValueImpl implements ICountRomanSymbolValue {
-    public int countRomanSymbolValue(String romanSymboSerial) {
-        char[] numeralArray = romanSymboSerial.toCharArray();
+    public int countRomanSymbolValue(String romanSymbolSerial) {
+        char[] numeralArray = romanSymbolSerial.toCharArray();
         int index = 0;
         List<Integer> dealedRomanSymbolValueList = new ArrayList<Integer>();
         while (index + 1 <= numeralArray.length - 1) {

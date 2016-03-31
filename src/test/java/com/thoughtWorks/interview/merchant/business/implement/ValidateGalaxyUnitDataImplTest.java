@@ -7,9 +7,6 @@ import org.junit.Test;
 
 import java.util.HashMap;
 
-/**
- * Created by a460173 on 2016/3/31.
- */
 public class ValidateGalaxyUnitDataImplTest {
 
     @Test(expected = MerchantException.class)
