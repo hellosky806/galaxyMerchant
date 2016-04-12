@@ -22,7 +22,7 @@ public class ReadInputDataImpl implements IReadInputData {
                 inputDataList.add(lineString);
             }
         } catch (IOException ex) {
-            throw new MerchantException("Error happend when read input data");
+            throw new MerchantException("Error happened when read input data");
         }
         return inputDataList;
     }

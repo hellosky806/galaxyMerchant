@@ -8,9 +8,6 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by sunye on 2016/3/31.
- */
 public class BusinessUtil {
     public static String prepareValueOutPut(String questionStr, int value) {
         questionStr = questionStr.replaceFirst(Constant.VALUE_QUESTION_HEAD, "");
